@@ -6,6 +6,9 @@ import FireBase from "../assets/firebase.png";
 import Tailwind from "../assets/tailwind.png";
 import vue from "../assets/download.png";
 import TS from "../assets/ts.png";
+import nuxt from "../assets/nuxtjs.jpeg"
+import Bootstrap from "../assets/boostrap.jpeg"
+import next from "../assets/NEXT.png"
 
 import React from "react";
 
@@ -42,6 +45,10 @@ const Skills = () => {
             <p className="my-4">REACT</p>
           </div>
           <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
+            <img className="w-20 mx-auto" src={next} alt="HTML icon" />
+            <p className="my-4">NextJs</p>
+          </div>
+          <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
             <img className="w-20 mx-auto" src={FireBase} alt="HTML icon" />
             <p className="my-4">Firebase</p>
           </div>
@@ -54,9 +61,18 @@ const Skills = () => {
             <p className="my-4">VueJs</p>
           </div>
           <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
+            <img className="w-20 mx-auto" src={nuxt} alt="HTML icon" />
+            <p className="my-4">NuxtJS</p>
+          </div>
+          <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
+            <img className="w-20 mx-auto" src={Bootstrap} alt="HTML icon" />
+            <p className="my-4">Bootstrap</p>
+          </div>
+          <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
             <img className="w-20 mx-auto" src={TS} alt="HTML icon" />
             <p className="my-4">Typescript</p>
           </div>
+
         </div>
       </div>
     </div>

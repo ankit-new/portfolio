@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import Logo from "../assets/as.jpg";
+import CV from "../assets/AnkitCV.pdf"
 import { Link } from "react-scroll";
 import {
   FaBars,
@@ -53,6 +54,12 @@ const Navbar = () => {
           <Link to="contact" smooth={true} duration={500}>
             Contact
           </Link>
+        </li>
+        <li>
+          {" "}
+          <a href={CV} download>
+            Download CV
+          </a>
         </li>
       </ul>
 

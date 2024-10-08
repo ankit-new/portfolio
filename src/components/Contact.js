@@ -1,6 +1,25 @@
-import React from "react";
+import React, { useState } from "react";
 
 const Contact = () => {
+
+  const [formData, setFormData] = useState({
+    name: "",
+    email: "",
+    message: ""
+  });
+
+ 
+  const handleChange = (e) => {
+    const { name, value } = e.target;
+    setFormData((prevData) => ({
+      ...prevData,
+      [name]: value
+    }));
+  };
+
+  
+  const isFormValid = formData.name && formData.email && formData.message;
+
   return (
     <div
       name="contact"
@@ -25,20 +44,33 @@ const Contact = () => {
           type="text"
           placeholder="Name"
           name="name"
+          value={formData.name}
+          onChange={handleChange}
         />
         <input
           className="my-4 p-2 bg-[#ccd6f6]"
           type="email"
           placeholder="Email"
           name="email"
+          value={formData.email}
+          onChange={handleChange}
         />
         <textarea
           className="bg-[#ccd6f6] p-2"
           name="message"
           rows="10"
           placeholder="Message"
+          value={formData.message}
+          onChange={handleChange}
         ></textarea>
-        <button className="text-white border-2 hover:bg-pink-600 hover:border-pink-600 px-4 py-3 my-8 mx-auto flex items-center">
+        <button
+          className={`text-white border-2 px-4 py-3 my-8 mx-auto flex items-center ${
+            isFormValid
+              ? "hover:bg-pink-600 hover:border-pink-600"
+              : "opacity-50 cursor-not-allowed"
+          }`}
+          disabled={!isFormValid} 
+        >
           Let's Collaborate
         </button>
       </form>
