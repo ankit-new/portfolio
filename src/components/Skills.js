@@ -4,6 +4,8 @@ import JavaScript from "../assets/javascript.png";
 import ReactImg from "../assets/react.png";
 import FireBase from "../assets/firebase.png";
 import Tailwind from "../assets/tailwind.png";
+import vue from "../assets/download.png";
+import TS from "../assets/ts.png";
 
 import React from "react";
 
@@ -46,6 +48,14 @@ const Skills = () => {
           <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
             <img className="w-20 mx-auto" src={Tailwind} alt="HTML icon" />
             <p className="my-4">Tailwind CSS</p>
+          </div>
+          <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
+            <img className="w-20 mx-auto" src={vue} alt="HTML icon" />
+            <p className="my-4">VueJs</p>
+          </div>
+          <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
+            <img className="w-20 mx-auto" src={TS} alt="HTML icon" />
+            <p className="my-4">Typescript</p>
           </div>
         </div>
       </div>

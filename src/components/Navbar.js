@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import Logo from "../assets/logo1.png";
+import Logo from "../assets/as.jpg";
 import { Link } from "react-scroll";
 import {
   FaBars,

@@ -2,6 +2,7 @@ import React from "react";
 import Netflix from "../assets/Netflix.png";
 import Portfolio from "../assets/Portfolio.png";
 import Cocktaildb from "../assets/Cocktaildb.png";
+import store from "../assets/store.png";
 import Udemy from "../assets/Udemy.png";
 
 const Work = () => {
@@ -10,7 +11,7 @@ const Work = () => {
       <div className="max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full">
         <div className="pb-8">
           <p className="text-4xl font-bold inline border-b-4 text-gray-300 border-pink-600">
-            Work
+            Work (Personal Projects)
           </p>
           <p className="py-6"> Check out some of my recent work</p>
         </div>
@@ -25,15 +26,21 @@ const Work = () => {
             {/* Hover Effects */}
             <div className="opacity-0 group-hover:opacity-100">
               <span className="text-2xl font-bold text-white tracking-wider">
-                React JS Application
+                Netflix Clone
               </span>
               <div className="pt-8 text-center">
-                <a href="/">
+                <a
+                  href="https://gilded-puffpuff-732275.netlify.app/"
+                  target="_blank"
+                >
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
                     Demo
                   </button>
                 </a>
-                <a href="/">
+                <a
+                  href="https://github.com/ankit-new/Netflix-clone"
+                  target="_blank"
+                >
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
                     Code
                   </button>
@@ -48,10 +55,10 @@ const Work = () => {
             {/* Hover Effects */}
             <div className="opacity-0 group-hover:opacity-100">
               <span className="text-2xl font-bold text-white tracking-wider">
-                React JS Application
+                Comfy Sloth
               </span>
               <div className="pt-8 text-center">
-                <a href="/">
+                <a href="https://fashion-steep.netlify.app/" target="_blank">
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
                     Demo
                   </button>
@@ -72,15 +79,21 @@ const Work = () => {
             {/* Hover Effects */}
             <div className="opacity-0 group-hover:opacity-100">
               <span className="text-2xl font-bold text-white tracking-wider">
-                React JS Application
+                Cocktaildb
               </span>
               <div className="pt-8 text-center">
-                <a href="/">
+                <a
+                  href="https://tranquil-lolly-6d7cdc.netlify.app/"
+                  target="_blank"
+                >
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
                     Demo
                   </button>
                 </a>
-                <a href="/">
+                <a
+                  href="https://github.com/ankit-new/Cocktail-db.git"
+                  target="_blank"
+                >
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
                     Code
                   </button>
@@ -89,21 +102,26 @@ const Work = () => {
             </div>
           </div>
           <div
-            style={{ backgroundImage: `url(${Portfolio})` }}
+            style={{ backgroundImage: `url(${store})` }}
             className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
           >
             {/* Hover Effects */}
             <div className="opacity-0 group-hover:opacity-100">
               <span className="text-2xl font-bold text-white tracking-wider">
-                React JS Application
+                Store React
               </span>
               <div className="pt-8 text-center">
-                <a href="/">
+                <a
+                  href="https://curious-longma-2bc2da.netlify.app/"
+                  target="_blank"
+                >
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
                     Demo
                   </button>
                 </a>
-                <a href="/">
+                <a
+                  href="https://github.com/ankit-new/shop-react" target="_blank"
+                >
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
                     Code
                   </button>
@@ -111,6 +129,8 @@ const Work = () => {
               </div>
             </div>
           </div>
+
+          
           {/* Grid Item */}
         </div>
       </div>
