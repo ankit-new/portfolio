@@ -15,11 +15,12 @@ const Home = () => {
         </h2>
         <p className="text-[#8892b0] py-4 max-w-[700px]">
           I am a software engineer at Exlitem India formely known as Offshore
-          Research Partners, currently serving as a Vue.js developer in the
+          Research Partners, currently serving as a React Js developer in the
           project. In this role, I am responsible for implementing the user
-          interface and functionality using Vue.js, a popular JavaScript
-          framework.I am skilled in HTML, CSS,Javascript ,Vuetify, Vue. js ,
-          React js and also eager to explore different frontend technologies.
+          interface and functionality using React JS, a popular JavaScript
+          framework.I am skilled in HTML, CSS, Javascript, React Js, Typescript,
+          Vuetify, Next Js, Vue Js, Tailwind CSS and also eager to explore 
+          different frontend technologies.
         </p>
         <div>
          <Link to="work" smooth={true} duration={500}> 
